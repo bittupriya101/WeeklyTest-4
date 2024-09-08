@@ -1,0 +1,70 @@
+/* Resetting some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Header Styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #3e4240; /* Dark green color */
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffcc00; /* Highlight color on hover */
+}
+
+/* Main Content Section Styling */
+home{
+    /* background-image: url(https://koa.com/blog/images/family-camping-at-sunset.jpg?preset=heroimagecropped); */
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.camping-gear {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f5f5f5; /* Light gray background */
+}
+
+.camping-gear h1 {
+    color:white; /* Dark green color */
+    margin-bottom: 10px;
+}
+
+.camping-gear p {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+
